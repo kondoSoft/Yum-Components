@@ -1,37 +1,37 @@
 # Yum-Components
 Yum Components for mobile app's created with REACT NATIVE
 
-#GeneralButton
+# GeneralButton
 
-##Sin icono
+## Sin icono
 
-![Sin icono](img/generalbutton.jpg)
+![Sin icono](/img/generalbutton.jpg)
 
 `<GeneralButton
  text='COMENZAR'
 />`
 
-##Con icono a la izquierda
+## Con icono a la izquierda
 
-![icon left](img/generalbutton1.jpg)
+![icon left](/img/generalbutton1.jpg)
 
 `<GeneralButton
   text='AÑADIR A LA BOLSA'
   Icon='shopping-bag'
 />`
 
-##Con icono a la derecha
+## Con icono a la derecha
 
-![icon right](img/generalbutton2.jpg)
+![icon right](/img/generalbutton2.jpg)
 
 `<GeneralButton
   text='PAGAR'
   IconSide='check'
 />`
 
-#OrderDetails
+# OrderDetails
 
-![icon right](img/orderDetails.jpg)
+![icon right](/img/orderDetails.jpg)
 
 `<OrderDetail`
     `quantity = {this.state.order.items.food1.quantity}`  <-- Cantidad de ordenes del platillo
