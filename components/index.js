@@ -9,5 +9,5 @@ export {
   OrderDetail,
   IconEdit,
   CircleImage,
-  DescriptionText
+  Description
 }
