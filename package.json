@@ -1,6 +1,6 @@
 {
   "name": "yum-components",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "Components for yum app's created with react native",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,6 @@
   "homepage": "https://github.com/kondoSoft/Yum-Components#readme",
   "dependencies": {
     "react": "^16.2.0",
-    "react-native": "^0.51.0",
     "react-native-vector-icons": "^4.4.2",
     "styled-components": "^2.2.4"
   }
