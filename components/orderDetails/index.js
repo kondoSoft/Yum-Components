@@ -1,5 +1,10 @@
 import React from 'react'
-
+import {
+  OrderContainer,
+  LineBox,
+  RawText,
+  GrayText,
+} from './styled'
 const OrderDetail = (props) =>(
   <OrderContainer>
     <LineBox price = {props.price} >
