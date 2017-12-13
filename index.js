@@ -1,8 +1,8 @@
  import{
-   GeneralButton
-   OrderDetail
-   IconEdit
-   CircleImage
+   GeneralButton,
+   OrderDetail,
+   IconEdit,
+   CircleImage,
    Description } from './components'
 
 export {
