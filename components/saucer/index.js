@@ -13,7 +13,7 @@ import {
   Wrapper
 } from './styled'
 
-export const MenuItem = (props) => {
+export const Saucer = (props) => {
   const {data} = props
   return (
     <SaucerButton onPress={(props.onPress) && props.onPress} key={data.id} disabled={!data.available}>
