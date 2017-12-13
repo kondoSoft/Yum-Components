@@ -15,7 +15,7 @@ export const RawText = styled.Text`
   font-size: 15px;
   justify-content: space-between;
 `
-const LineBox = styled.View`
+export const LineBox = styled.View`
   flex: 1;
   flex-direction: row;
   justify-content: ${props => props.price != null ? 'space-between' : 'flex-start'};

@@ -20,19 +20,19 @@ const PreviewFood = (props) => (
       <MainContainer>
         <LeftContainer>
           <CircleImage
-            source={require('../../assets/img/restaurant.jpg')}
+            source={require(props.source)}
            />
         </LeftContainer>
         <RightContainer>
           <Description
-            titleColor='rgb(255,87,34)'
-            titleText='Tostadas de pollo'
-            descriptionText='Orden de 3 con lechuga, aguacate, cebolla morada y tomate.'
+            titleColor={props.titleColor}
+            titleText={props.titleText}
+            descriptionText={props.descriptionText}
             width='100%'
             height='30px'
            />
           <PriceContainer>
-            <Price>$50.00</Price>
+            <Price>{$ + '' + props.price}</Price>
           </PriceContainer>
         </RightContainer>
       </MainContainer>
