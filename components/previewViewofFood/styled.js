@@ -1,3 +1,5 @@
+import React from 'react'
+import styled from 'styled-components/native'
 
 export const Content = styled.View`
   width: 95%;
@@ -27,8 +29,14 @@ export const RightContainer = styled.View`
 `
 export const PriceContainer = styled.View`
   flex: 1;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: row;
 `
 export const Price = styled.Text`
   font-size: 15px;
+`
+export const Status = styled.Text`
+  font-size: 15px;
+  color: ${props => props.status === 'Disponible' ? 'green' : 'red'};
+  display: ${props=> props.status ? 'flex' : 'none'};
 `

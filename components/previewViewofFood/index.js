@@ -10,8 +10,9 @@ import {
   MainContainer,
   LeftContainer,
   RightContainer,
-  PriceContainer
+  PriceContainer,
   Price,
+  Status
 } from './styled'
 
 const PreviewFood = (props) => (
@@ -20,7 +21,7 @@ const PreviewFood = (props) => (
       <MainContainer>
         <LeftContainer>
           <CircleImage
-            source={require(props.source)}
+            source={props.source}
            />
         </LeftContainer>
         <RightContainer>
@@ -32,7 +33,8 @@ const PreviewFood = (props) => (
             height='30px'
            />
           <PriceContainer>
-            <Price>{$ + '' + props.price}</Price>
+            <Price>{'$' + '' + props.price}</Price>
+            <Status status = {props.status} > {props.status}</Status>
           </PriceContainer>
         </RightContainer>
       </MainContainer>

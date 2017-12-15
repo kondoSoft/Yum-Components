@@ -3,7 +3,8 @@
    OrderDetail,
    IconEdit,
    CircleImage,
-   Description } from './components'
+   Description,
+   PreviewFood } from './components'
 
 export {
   GeneralButton,
@@ -11,4 +12,5 @@ export {
   IconEdit,
   CircleImage,
   Description,
+  PreviewFood
 }

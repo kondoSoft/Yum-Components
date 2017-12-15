@@ -50,15 +50,15 @@ Yum Components for mobile app's created with REACT NATIVE
 # PreviewFood
 
 `<PreviewFood />`
-props:
-  onPress={props.onPress}
-  titleColor='rgb(255,87,34)'
-  titleText='Tostadas de pollo'
-  descriptionText='Orden de 3 con lechuga, aguacate, cebolla morada y tomate.'
-  width='100%'
-  height='30px'
-  source={require('../../assets/img/restaurant.jpg')}
-  price
+Props
+    titleColor='rgb(255,87,34)'
+    titleText='Tostadas de pollo'
+    descriptionText='Orden de 3 con lechuga, aguacate, cebolla morada y tomate.'
+    width='100%'
+    height='30px'
+    source={require('../../assets/img/restaurant.jpg')}
+    price ={'50'}
+    status = 'Disponible'
 
 
 [img1]: img/generalbutton.jpg "general button"
